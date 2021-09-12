@@ -1,27 +1,38 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import About from "./components/About";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Project from "./components/Project";
-import Layout from "./components/Layout";
+import React, { Component } from 'react';
+import './App.css';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/main'
+import { Link } from 'react-router-dom';
 
 
-
-function App() {
-  return (
-    <div>
-      <Router>
+class App extends Component {
+  render() {
+    return (
+      <div className="demo-big-content">
         <Layout>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/project" component={Project} />
-          </Switch>
+          <Header className="header-color" title={<Link style={{textDecoration:'none', color: 'White'}} to="/">My Porfolio</Link>} scroll>
+            <Navigation>
+              <Link to="/About">About Me</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/Projects">Projects</Link>
+              <Link to="/Contact">Contact</Link>
+            </Navigation>
+          </Header>
+          <Drawer title={<Link style={{textDecoration:'none', color: 'black'}} to="/">My Porfolio</Link>}>
+          <Navigation>
+              <Link to="/About">About Me</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/Projects">Projects</Link>
+              <Link to="/Contact">Contact</Link>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Main/>
+          </Content>
         </Layout>
-      </Router>
-    </div>
-  );
+      </div>
+    );
+  }
 }
-
 export default App;

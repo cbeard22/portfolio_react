@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-
-.cursive {
-  font-family: "Amantic SC", "cursive";
-  font-weight: 700;
-}
-.nav-hame{
-  font-size: 80px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
