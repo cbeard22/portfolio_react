@@ -17,6 +17,10 @@ You can clone the github repository and edit the code to your liking. Then adjus
 ![Screenshot of finished Portfolio](./public/img/screenshot.PNG)
 
 ![Screenshot of resume page](./public/img/resumeSS.png)
+
+![Screenshot of contact page](./public/img/contact.png)
+
+![Screenshot of projects page](./public/img/projects.png)
 ## License
 
 MIT License
