@@ -9,7 +9,7 @@ class Resume extends Component {
         return (
             <div>
 
-                <Grid>
+                <Grid className='resume-body'>
                     <Cell col={4}>
                         <div style={{ textAlign: "center" }}>
                             <img
@@ -26,6 +26,7 @@ class Resume extends Component {
                             <p>(952)221-8280</p>
                             <h5>Email</h5>
                             <p>mr.chrisbeard@gmail.com</p>
+                            <a href="http://localhost:3000/portfolio_react/img/Resume_2021.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -33,7 +34,8 @@ class Resume extends Component {
                         <Education
                             startYear={"April 2021"}
                             endYear={"October 2021"}
-                            schoolName={"University of Minnesota"} />
+                            schoolName={"University of Minnesota"} 
+                            schoolDescription={"Full Stack Web Development - Bootcamp"}/>
                         <Education
                             startYear={"September 2008"}
                             endYear={"April 2012"}

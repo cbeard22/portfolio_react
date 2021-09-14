@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title={<Link style={{textDecoration:'none', color: 'White'}} to="/">My Porfolio</Link>} scroll>
+          <Header className="header-color" title={<Link style={{ textDecoration: 'none', color: 'White' }} to="/">My Porfolio</Link>} scroll>
             <Navigation>
               <Link to="/About">About Me</Link>
               <Link to="/resume">Resume</Link>
@@ -18,8 +18,8 @@ class App extends Component {
               <Link to="/Contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title={<Link style={{textDecoration:'none', color: 'black'}} to="/">My Porfolio</Link>}>
-          <Navigation>
+          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">My Porfolio</Link>}>
+            <Navigation>
               <Link to="/About">About Me</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/Projects">Projects</Link>
@@ -27,8 +27,7 @@ class App extends Component {
             </Navigation>
           </Drawer>
           <Content>
-            <div className="page-content" />
-            <Main/>
+            <Main />
           </Content>
         </Layout>
       </div>

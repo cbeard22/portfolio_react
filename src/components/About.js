@@ -1,37 +1,38 @@
 import React, { Component } from 'react';
-import {Card, Grid, Cell} from 'react-mdl';
+import {Grid, Cell } from 'react-mdl';
 
 class About extends Component {
     render() {
         return (
             <div className="about-body">
-                <h1>About Chris Beard</h1>
                 <Grid className="about-pictures">
                     <Cell col={4}>
-                    <img
-                            src="http://localhost:3000/portfolio_react/img/poggers.png"
-                            alt="Chris Beard"
-                            style={{ height: '250px' }}
-                            className="chrisBeard2"
-                        />
-                    </Cell>
-                    <Cell col={4}>
-                    <img
-                            src="http://localhost:3000/portfolio_react/img/chrisBeard2.jpg"
-                            alt="Chris Beard"
-                            style={{ height: '250px' }}
-                            className="chrisBeard2"
-                        />
-                    </Cell>
-                    <Cell col={4}>
-                    <img
+                        <img
                             src="http://localhost:3000/portfolio_react/img/puppy.jpg"
                             alt="Chris Beard"
-                            style={{ height: '250px' }}
-                            className="chrisBeard2"
+                            style={{ height: '300px', borderRadius: "50px" }}
+                            className="about1"
                         />
                     </Cell>
-<p>My name is Chris Beard and I am a entry level Full Stack Web Developer. I was previously an elementary school teacher, but I am looking to change my career. I love to problem solve and debug code. I am excited for this new experience. In my free time I like to Wakesurf, build things from wood, and hang out with my wife and new puppy.</p>
+                    <Cell col={4}>
+                        <img
+                            src="http://localhost:3000/portfolio_react/img/chrisandem.jpg"
+                            alt="Chris Beard"
+                            style={{ height: '300px', borderRadius: "50px" }}
+                            className="about1"
+                        />
+                    </Cell>
+                    <Cell col={4}>
+                        <img
+                            src="http://localhost:3000/portfolio_react/img/chrisandem2.jpg"
+                            alt="Chris Beard"
+                            style={{ height: '300px', borderRadius: "50px" }}
+                            className="about1"
+                        />
+                    </Cell>
+                    <Cell col={12}>
+                            <p className='aboutMe'>My name is Chris Beard and I am an entry level Full Stack Web Developer. I was previously an elementary school teacher for 10 years, and I am exicted for a new experience in web development. I have always loved to problem solve and recently I have discovered a passion for debugging code. In my free time I like to wakesurf, fix old motors, and hang out with my wife and new puppy.</p>
+                    </Cell>
                 </Grid>
             </div>
         )

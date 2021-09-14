@@ -4,7 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 class Home extends Component {
     render() {
         return (
-            <div style={{ width: '100', margin: 'auto' }}>
+            <div style={{ width: '100', margin: '20px' }}>
                 <Grid className="home-grid">
                     <Cell col={12}>
 
@@ -13,7 +13,8 @@ class Home extends Component {
                                 src="http://localhost:3000/portfolio_react/img/chrisbeard.jpg"
                                 alt="Chris Beard"
                                 className="chrisBeard" />
-                            <h1> Full Stack Web Developer</h1>
+                                <h1> Chris Beard </h1>
+                            <h1 style={{fontSize:'35px'}}> Full Stack Web Developer</h1>
                             <hr />
 
                             <p>HTML/CSS | Bootstrap | Javascript | React | NodeJS | Express | MongoDB</p>
