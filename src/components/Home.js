@@ -1,3 +1,4 @@
+import { createRequire } from 'module';
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
@@ -10,7 +11,7 @@ class Home extends Component {
 
                         <div className="banner-text">
                             <img
-                                src="./img/chrisbeard.jpg"
+                                src= {require("./img/chrisbeard.jpg")}
                                 alt="Chris Beard"
                                 className="chrisBeard" />
                                 <h1> Chris Beard </h1>
