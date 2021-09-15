@@ -1,7 +1,7 @@
 import { createRequire } from 'module';
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import picture from './img/chrisbeard.jpg';
+import picture from '/chrisbeard.jpg';
 console.log(picture);
 class Home extends Component {
     render() {
