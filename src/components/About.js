@@ -8,7 +8,7 @@ class About extends Component {
                 <Grid className="about-pictures">
                     <Cell col={4}>
                         <img
-                            src="http://localhost:3000/portfolio_react/img/puppy.jpg"
+                            src="https://localhost:3000/portfolio_react/img/puppy.jpg"
                             alt="Chris Beard"
                             style={{ height: '300px', borderRadius: "50px" }}
                             className="about1"
@@ -16,7 +16,7 @@ class About extends Component {
                     </Cell>
                     <Cell col={4}>
                         <img
-                            src="http://localhost:3000/portfolio_react/img/chrisandem.jpg"
+                            src="https://localhost:3000/portfolio_react/img/chrisandem.jpg"
                             alt="Chris Beard"
                             style={{ height: '300px', borderRadius: "50px" }}
                             className="about1"
@@ -24,7 +24,7 @@ class About extends Component {
                     </Cell>
                     <Cell col={4}>
                         <img
-                            src="http://localhost:3000/portfolio_react/img/chrisandem2.jpg"
+                            src="https://localhost:3000/portfolio_react/img/chrisandem2.jpg"
                             alt="Chris Beard"
                             style={{ height: '300px', borderRadius: "50px" }}
                             className="about1"

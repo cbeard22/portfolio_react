@@ -9,7 +9,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Chris Beard</h2>
                         <img
-                            src="http://localhost:3000/portfolio_react/img/chrisBeard2.jpg"
+                            src="https://localhost:3000/portfolio_react/img/chrisBeard2.jpg"
                             alt="Chris Beard"
                             style={{ height: '250px' }}
                             className="chrisBeard2"

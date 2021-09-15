@@ -13,7 +13,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{ textAlign: "center" }}>
                             <img
-                                src="http://localhost:3000/portfolio_react/img/chrisbeard.jpg"
+                                src="https://localhost:3000/portfolio_react/img/chrisbeard.jpg"
                                 alt="Chris Beard"
                                 className="pictureofMe"
                                 style={{ height: "300px"}} />
@@ -26,7 +26,7 @@ class Resume extends Component {
                             <p>(952)221-8280</p>
                             <h5>Email</h5>
                             <p>mr.chrisbeard@gmail.com</p>
-                            <a href="http://localhost:3000/portfolio_react/img/Resume_2021.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            <a href="https://localhost:3000/portfolio_react/img/Resume_2021.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>

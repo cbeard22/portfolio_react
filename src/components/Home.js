@@ -10,7 +10,7 @@ class Home extends Component {
 
                         <div className="banner-text">
                             <img
-                                src="http://localhost:3000/portfolio_react/img/chrisbeard.jpg"
+                                src="https://localhost:3000/portfolio_react/img/chrisbeard.jpg"
                                 alt="Chris Beard"
                                 className="chrisBeard" />
                                 <h1> Chris Beard </h1>
