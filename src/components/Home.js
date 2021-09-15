@@ -12,7 +12,7 @@ class Home extends Component {
 
                         <div className="banner-text">
                             <img
-                                src= {picture}
+                                src= {require('/public/img/chrisbeard.jpg')}
                                 alt="Chris Beard"
                                 className="chrisBeard" />
                                 <h1> Chris Beard </h1>
