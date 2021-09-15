@@ -13,7 +13,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{ textAlign: "center" }}>
                             <img
-                                src="https://localhost:3000/portfolio_react/img/chrisbeard.jpg"
+                                src="./img/chrisbeard.jpg"
                                 alt="Chris Beard"
                                 className="pictureofMe"
                                 style={{ height: "300px"}} />
