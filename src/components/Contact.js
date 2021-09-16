@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import img2 from '../img/chrisBeard2.jpg'
 
 class Contact extends Component {
     render() {
@@ -9,7 +10,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Chris Beard</h2>
                         <img
-                            src="https://localhost:3000/portfolio_react/img/chrisBeard2.jpg"
+                            src={img2}
                             alt="Chris Beard"
                             style={{ height: '250px' }}
                             className="chrisBeard2"

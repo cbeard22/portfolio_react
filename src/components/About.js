@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import {Grid, Cell } from 'react-mdl';
+import img3 from '../img/chrisandem2.jpg';
+import img4 from '../img/chrisandem.jpg';
+import puppy from '../img/puppy.jpg';
 
 class About extends Component {
     render() {
@@ -8,7 +11,7 @@ class About extends Component {
                 <Grid className="about-pictures">
                     <Cell col={4}>
                         <img
-                            src="https://localhost:3000/portfolio_react/img/puppy.jpg"
+                            src={puppy}
                             alt="Chris Beard"
                             style={{ height: '300px', borderRadius: "50px" }}
                             className="about1"
@@ -16,7 +19,7 @@ class About extends Component {
                     </Cell>
                     <Cell col={4}>
                         <img
-                            src="https://localhost:3000/portfolio_react/img/chrisandem.jpg"
+                            src={img4}
                             alt="Chris Beard"
                             style={{ height: '300px', borderRadius: "50px" }}
                             className="about1"
@@ -24,7 +27,7 @@ class About extends Component {
                     </Cell>
                     <Cell col={4}>
                         <img
-                            src="https://localhost:3000/portfolio_react/img/chrisandem2.jpg"
+                            src={img3}
                             alt="Chris Beard"
                             style={{ height: '300px', borderRadius: "50px" }}
                             className="about1"
