@@ -1,8 +1,7 @@
 import { createRequire } from 'module';
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import picture from './chrisbeard.jpg';
-console.log(picture);
+
 class Home extends Component {
     render() {
         return (
@@ -12,7 +11,7 @@ class Home extends Component {
 
                         <div className="banner-text">
                             <img
-                                src= {require('/public/img/chrisbeard.jpg')}
+                                src=""
                                 alt="Chris Beard"
                                 className="chrisBeard" />
                                 <h1> Chris Beard </h1>
@@ -25,7 +24,7 @@ class Home extends Component {
                                     <i className="fab fa-github" aria-hidden="true" />
                                 </a>
                                 <a href="mailto:mr.chrisbeard@gmail.com" rel="noopener noreferrer" target="_blank">
-                                    <i class="fas fa-envelope-square" aria-hidden="true" />
+                                    <i className="fas fa-envelope-square" aria-hidden="true" />
                                 </a>
                                 <a href="https://www.linkedin.com/in/chris-beard-aa3a2b112/" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-linkedin" aria-hidden="true" />

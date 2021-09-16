@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import img from '../img/chrisbeard.jpg';
 
 class Resume extends Component {
     render() {
@@ -13,7 +14,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{ textAlign: "center" }}>
                             <img
-                                src="./img/chrisbeard.jpg"
+                                src={img}
                                 alt="Chris Beard"
                                 className="pictureofMe"
                                 style={{ height: "300px"}} />
