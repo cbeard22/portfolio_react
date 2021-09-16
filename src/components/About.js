@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Grid, Cell } from 'react-mdl';
-import img3 from '../img/chrisandem2.JPG';
+import img3 from '../img/chrisandem2.jpg';
 import img4 from '../img/chrisandem.jpg';
 import puppy from '../img/puppy.jpg';
 
