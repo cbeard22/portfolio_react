@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.b2760aa9.chunk.css",
-    "main.js": "/portfolio_react/static/js/main.6d125ab6.chunk.js",
-    "main.js.map": "/portfolio_react/static/js/main.6d125ab6.chunk.js.map",
+    "main.js": "/portfolio_react/static/js/main.6c806964.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.6c806964.chunk.js.map",
     "runtime-main.js": "/portfolio_react/static/js/runtime-main.a4c2cc91.js",
     "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.a4c2cc91.js.map",
     "static/css/2.2fcc896a.chunk.css": "/portfolio_react/static/css/2.2fcc896a.chunk.css",
@@ -16,13 +16,14 @@
     "static/media/chrisandem2.53f360f2.jpg": "/portfolio_react/static/media/chrisandem2.53f360f2.jpg",
     "static/media/chrisbeard.f8e3d5fa.jpg": "/portfolio_react/static/media/chrisbeard.f8e3d5fa.jpg",
     "static/media/chrisbeard2.efd47432.jpg": "/portfolio_react/static/media/chrisbeard2.efd47432.jpg",
-    "static/media/puppy.3f0b0b43.jpg": "/portfolio_react/static/media/puppy.3f0b0b43.jpg"
+    "static/media/puppy.3f0b0b43.jpg": "/portfolio_react/static/media/puppy.3f0b0b43.jpg",
+    "static/media/resume_2021.3d628485.pdf": "/portfolio_react/static/media/resume_2021.3d628485.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.a4c2cc91.js",
     "static/css/2.2fcc896a.chunk.css",
     "static/js/2.c63701c7.chunk.js",
     "static/css/main.b2760aa9.chunk.css",
-    "static/js/main.6d125ab6.chunk.js"
+    "static/js/main.6c806964.chunk.js"
   ]
 }
