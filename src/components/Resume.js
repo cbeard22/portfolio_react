@@ -4,7 +4,7 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import img from '../img/chrisbeard.jpg';
-import Pdf from '../img/resume_2021.pdf';
+import Pdf from '../img/resume.pdf';
 
 class Resume extends Component {
     render() {
