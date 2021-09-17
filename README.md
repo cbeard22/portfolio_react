@@ -2,7 +2,7 @@
 
 ## Live Deployed Link
 
-https://cbeard22.github.io/portfolio_react/
+https://cbeard22.github.io/
 
 ## Description
 
