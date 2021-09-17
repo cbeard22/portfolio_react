@@ -4,6 +4,7 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import img from '../img/chrisbeard.jpg';
+import Pdf from '../img/resume_2021.pdf';
 
 class Resume extends Component {
     render() {
@@ -17,7 +18,7 @@ class Resume extends Component {
                                 src={img}
                                 alt="Chris Beard"
                                 className="pictureofMe"
-                                style={{ height: "300px"}} />
+                                style={{ height: "300px" }} />
                             <h2 >Chris Beard</h2>
                             <h4 style={{ color: 'grey' }}>Full Stack Developer</h4>
                             <hr style={{ borderTop: '3px solid #212121', width: '100%' }} />
@@ -27,7 +28,7 @@ class Resume extends Component {
                             <p>(952)221-8280</p>
                             <h5>Email</h5>
                             <p>mr.chrisbeard@gmail.com</p>
-                            <a href="https://localhost:3000/portfolio_react/img/Resume_2021.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            <a href={Pdf} target="_blank"><i class="fas fa-file-pdf"></i></a>
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -35,8 +36,8 @@ class Resume extends Component {
                         <Education
                             startYear={"April 2021"}
                             endYear={"October 2021"}
-                            schoolName={"University of Minnesota"} 
-                            schoolDescription={"Full Stack Web Development - Bootcamp"}/>
+                            schoolName={"University of Minnesota"}
+                            schoolDescription={"Full Stack Web Development - Bootcamp"} />
                         <Education
                             startYear={"September 2008"}
                             endYear={"April 2012"}
