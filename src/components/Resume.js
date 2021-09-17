@@ -28,7 +28,7 @@ class Resume extends Component {
                             <p>(952)221-8280</p>
                             <h5>Email</h5>
                             <p>mr.chrisbeard@gmail.com</p>
-                            <a href={Pdf} target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            <a href={Pdf} rel='noreferrer' target="_blank"><i class="fas fa-file-pdf"></i></a>
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
